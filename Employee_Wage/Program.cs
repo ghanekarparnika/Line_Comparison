@@ -2,7 +2,7 @@
 //Console.WriteLine("Hello, World!");
 
 
-//Use Case 6-Calculate Wages till a condition of total working hours of 100 or max days os 20 is reached for a month
+//Use Case 7 - Ability to compute Employee Wage for multiple companies
 using System;
 namespace Employee_Wage
 {
@@ -14,12 +14,14 @@ namespace Employee_Wage
         const int Emp_Rate_Per_Hr = 20;
         const int Num_Of_Days = 20;
         const int Max_Num_of_Hrs = 100;
-        static void Main(string[] args) 
+
+        public static void calc_EmpWage()
         {
             //variables
-            int empHrs = 0,totalEmpWage=0,MaxEmpHrs=0 ,totalWorkingdays=0;
+            int empHrs = 0, totalEmpWage = 0, MaxEmpHrs = 0, totalWorkingdays = 0;
 
-            while(MaxEmpHrs<=Max_Num_of_Hrs || totalWorkingdays<Num_Of_Days ) {
+            while (MaxEmpHrs < Max_Num_of_Hrs || totalWorkingdays < Num_Of_Days)
+            {
 
                 totalWorkingdays++;
                 //creating object of Randaom class
@@ -43,11 +45,18 @@ namespace Employee_Wage
 
                 }
                 MaxEmpHrs += empHrs;
-                Console.WriteLine("Day:"+totalWorkingdays+"      emp Hrs:"+empHrs);
+                Console.WriteLine("Working Day:" + totalWorkingdays + "         Total_Hours:" + MaxEmpHrs);
 
             }
-             totalEmpWage = MaxEmpHrs * Emp_Rate_Per_Hr;
-            Console.WriteLine("Total Emp Wage:"+totalEmpWage);
+            totalEmpWage = MaxEmpHrs * Emp_Rate_Per_Hr;
+            Console.WriteLine("Total Emp Wage:" + totalEmpWage);
+
+        }
+
+    
+        static void Main(string[] args) 
+        {
+            Program.calc_EmpWage();
 
         }
     }
