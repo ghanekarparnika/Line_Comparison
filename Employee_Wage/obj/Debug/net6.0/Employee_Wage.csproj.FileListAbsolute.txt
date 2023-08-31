@@ -12,3 +12,17 @@ D:\BridgeLabz_DotNet\Employee_Wage\obj\Debug\net6.0\refint\Employee_Wage.dll
 D:\BridgeLabz_DotNet\Employee_Wage\obj\Debug\net6.0\Employee_Wage.pdb
 D:\BridgeLabz_DotNet\Employee_Wage\obj\Debug\net6.0\Employee_Wage.genruntimeconfig.cache
 D:\BridgeLabz_DotNet\Employee_Wage\obj\Debug\net6.0\ref\Employee_Wage.dll
+C:\Users\UDIT\Downloads\Employee_Wage\bin\Debug\net6.0\Employee_Wage.exe
+C:\Users\UDIT\Downloads\Employee_Wage\bin\Debug\net6.0\Employee_Wage.deps.json
+C:\Users\UDIT\Downloads\Employee_Wage\bin\Debug\net6.0\Employee_Wage.runtimeconfig.json
+C:\Users\UDIT\Downloads\Employee_Wage\bin\Debug\net6.0\Employee_Wage.dll
+C:\Users\UDIT\Downloads\Employee_Wage\bin\Debug\net6.0\Employee_Wage.pdb
+C:\Users\UDIT\Downloads\Employee_Wage\obj\Debug\net6.0\Employee_Wage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\UDIT\Downloads\Employee_Wage\obj\Debug\net6.0\Employee_Wage.AssemblyInfoInputs.cache
+C:\Users\UDIT\Downloads\Employee_Wage\obj\Debug\net6.0\Employee_Wage.AssemblyInfo.cs
+C:\Users\UDIT\Downloads\Employee_Wage\obj\Debug\net6.0\Employee_Wage.csproj.CoreCompileInputs.cache
+C:\Users\UDIT\Downloads\Employee_Wage\obj\Debug\net6.0\Employee_Wage.dll
+C:\Users\UDIT\Downloads\Employee_Wage\obj\Debug\net6.0\refint\Employee_Wage.dll
+C:\Users\UDIT\Downloads\Employee_Wage\obj\Debug\net6.0\Employee_Wage.pdb
+C:\Users\UDIT\Downloads\Employee_Wage\obj\Debug\net6.0\Employee_Wage.genruntimeconfig.cache
+C:\Users\UDIT\Downloads\Employee_Wage\obj\Debug\net6.0\ref\Employee_Wage.dll

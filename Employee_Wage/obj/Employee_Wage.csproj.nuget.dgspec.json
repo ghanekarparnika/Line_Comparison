@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BridgeLabz_DotNet\\Employee_Wage\\Employee_Wage.csproj": {}
+    "C:\\Users\\UDIT\\Downloads\\Employee_Wage\\Employee_Wage.csproj": {}
   },
   "projects": {
-    "D:\\BridgeLabz_DotNet\\Employee_Wage\\Employee_Wage.csproj": {
+    "C:\\Users\\UDIT\\Downloads\\Employee_Wage\\Employee_Wage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BridgeLabz_DotNet\\Employee_Wage\\Employee_Wage.csproj",
+        "projectUniqueName": "C:\\Users\\UDIT\\Downloads\\Employee_Wage\\Employee_Wage.csproj",
         "projectName": "Employee_Wage",
-        "projectPath": "D:\\BridgeLabz_DotNet\\Employee_Wage\\Employee_Wage.csproj",
+        "projectPath": "C:\\Users\\UDIT\\Downloads\\Employee_Wage\\Employee_Wage.csproj",
         "packagesPath": "C:\\Users\\UDIT\\.nuget\\packages\\",
-        "outputPath": "D:\\BridgeLabz_DotNet\\Employee_Wage\\obj\\",
+        "outputPath": "C:\\Users\\UDIT\\Downloads\\Employee_Wage\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\UDIT\\AppData\\Roaming\\NuGet\\NuGet.Config",
