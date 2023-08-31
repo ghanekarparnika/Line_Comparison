@@ -1,11 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 //Console.WriteLine("Hello, World!");
 
-//Use Case 1-EmployeeAttendance
-//Use Case 2- Calculate Epmloyee Daily Wage
-//Use Case 3-Adding Part_Time_Employee and calculating Wage 
-//Use Case 4-Solving using switch case statement
-//Use Case 5-Calculating Wages for 20 workong days in a month
+
+//Use Case 6-Calculate Wages till a condition of total working hours of 100 or max days os 20 is reached for a month
 using System;
 namespace Employee_Wage
 {
@@ -16,16 +13,19 @@ namespace Employee_Wage
         const int Is_Part_Time = 2;
         const int Emp_Rate_Per_Hr = 20;
         const int Num_Of_Days = 20;
+        const int Max_Num_of_Hrs = 100;
         static void Main(string[] args) 
         {
             //variables
-            int empHrs = 0, empWage = 0,totalEmpWage=0;
+            int empHrs = 0,totalEmpWage=0,MaxEmpHrs=0 ,totalWorkingdays=0;
 
-            for (int day=1;day<=Num_Of_Days;day++) {
+            while(MaxEmpHrs<=Max_Num_of_Hrs || totalWorkingdays<Num_Of_Days ) {
+
+                totalWorkingdays++;
                 //creating object of Randaom class
                 Random rnd = new Random();
                 int empCheck = rnd.Next(0, 3);
-                Console.WriteLine("Day:"+day);
+                //Console.WriteLine("Day:"+totalWorkingdays);
                 switch (empCheck)
                 {
                     case Is_Full_Time:
@@ -37,15 +37,16 @@ namespace Employee_Wage
                         empHrs = 4;
                         break;
                     default:
+                        Console.WriteLine("Employee is absent");
                         empHrs = 0;
                         break;
 
                 }
+                MaxEmpHrs += empHrs;
+                Console.WriteLine("Day:"+totalWorkingdays+"      emp Hrs:"+empHrs);
 
-                empWage = empHrs * Emp_Rate_Per_Hr;
-                totalEmpWage += empWage;
-                Console.WriteLine("Employee Wage: " + empWage);
             }
+             totalEmpWage = MaxEmpHrs * Emp_Rate_Per_Hr;
             Console.WriteLine("Total Emp Wage:"+totalEmpWage);
 
         }
