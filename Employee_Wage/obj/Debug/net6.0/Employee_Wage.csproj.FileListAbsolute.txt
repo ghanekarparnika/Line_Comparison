@@ -1,0 +1,14 @@
+D:\BridgeLabz_DotNet\Employee_Wage\bin\Debug\net6.0\Employee_Wage.exe
+D:\BridgeLabz_DotNet\Employee_Wage\bin\Debug\net6.0\Employee_Wage.deps.json
+D:\BridgeLabz_DotNet\Employee_Wage\bin\Debug\net6.0\Employee_Wage.runtimeconfig.json
+D:\BridgeLabz_DotNet\Employee_Wage\bin\Debug\net6.0\Employee_Wage.dll
+D:\BridgeLabz_DotNet\Employee_Wage\bin\Debug\net6.0\Employee_Wage.pdb
+D:\BridgeLabz_DotNet\Employee_Wage\obj\Debug\net6.0\Employee_Wage.GeneratedMSBuildEditorConfig.editorconfig
+D:\BridgeLabz_DotNet\Employee_Wage\obj\Debug\net6.0\Employee_Wage.AssemblyInfoInputs.cache
+D:\BridgeLabz_DotNet\Employee_Wage\obj\Debug\net6.0\Employee_Wage.AssemblyInfo.cs
+D:\BridgeLabz_DotNet\Employee_Wage\obj\Debug\net6.0\Employee_Wage.csproj.CoreCompileInputs.cache
+D:\BridgeLabz_DotNet\Employee_Wage\obj\Debug\net6.0\Employee_Wage.dll
+D:\BridgeLabz_DotNet\Employee_Wage\obj\Debug\net6.0\refint\Employee_Wage.dll
+D:\BridgeLabz_DotNet\Employee_Wage\obj\Debug\net6.0\Employee_Wage.pdb
+D:\BridgeLabz_DotNet\Employee_Wage\obj\Debug\net6.0\Employee_Wage.genruntimeconfig.cache
+D:\BridgeLabz_DotNet\Employee_Wage\obj\Debug\net6.0\ref\Employee_Wage.dll
