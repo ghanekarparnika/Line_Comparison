@@ -22,14 +22,17 @@ internal class Program
 
     }
 
-    static void Is_Equal(double l1, double l2)
+    static void Compare(double l1, double l2)
     {
-        if (l1 == l2)
+        if (l1 > l2)
         {
-            Console.WriteLine("Two Lines are equal");
+            Console.WriteLine("first line is greater than second line");
         }
-        else
-            Console.WriteLine("Lines are not Equal");
+        else if(l1 < l2)
+        {
+            Console.WriteLine("first line is smaller than second line");
+        }else
+            Console.WriteLine("Both lines are Equal");
 
     }
     static void Main(string[] args)
@@ -52,7 +55,7 @@ internal class Program
         double length1 = CalculateLength1(x1, y1, x2, y2);
         double length2 = CalculateLength2(p1, k1, p2, k2);
         Console.WriteLine("Length of line1:"+length1+"      "+ "Length of line1:" + length2);
-        Is_Equal(length1, length2);
+        Compare(length1, length2);
         
     }
 }
